@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sqrczybykus — Autentyczna Pizza z Pieca</title>
+  <meta name="description" content="Sqrczybykus — autentyczna pizza neapolitańska. Ciemny motyw, najlepsze składniki, tel. 997112998." />
+  <meta property="og:title" content="Sqrczybykus — Najlepsza pizza w Żarach" />
+  <meta property="og:description" content="Pizza neapolitańska, ciasto 48h, składniki premium. Zadzwoń: 997112998" />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#0f0f0f" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <script defer src="main.js"></script>
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <div class="brand">
+        <img src="logo.svg" alt="Sqrczybykus" width="36" height="36" />
+        <span>Sqrczybykus</span>
+      </div>
+      <nav>
+        <a href="#menu">Menu</a>
+        <a href="#onas">O nas</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#opinie">Opinie</a>
+        <a href="#kontakt" class="btn small">Kontakt</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-bg"></div>
+    <div class="container hero-inner">
+      <h1>
+        Sqrczybykus<br />Pizza neapolitańska w Żarach
+      </h1>
+      <p>Ciasto dojrzewające 48 godzin. Składniki premium. Piec 480°C. Spróbuj prawdziwej pizzy, tel. <b>997112998</b></p>
+      <div class="actions">
+        <a href="#menu" class="btn primary">Zobacz menu</a>
+        <a href="#kontakt" class="btn ghost">Zarezerwuj telefonicznie</a>
+      </div>
+    </div>
+  </section>
+  <section class="menu" id="menu">
+    <div class="container">
+      <h2>Menu</h2>
+      <div class="menu-grid" id="menuGrid">
+        <article class="card classic">
+          <img src="margherita.jpg" alt="Pizza Margherita" />
+          <div class="card-body">
+            <h3>Margherita</h3>
+            <p>San Marzano, Fior di Latte, bazylia</p>
+            <div class="price">26 zł</div>
+          </div>
+        </article>
+        <article class="card classic">
+          <img src="marinara.jpg" alt="Pizza Marinara" />
+          <div class="card-body">
+            <h3>Marinara</h3>
+            <p>San Marzano, czosnek, oregano</p>
+            <div class="price">22 zł</div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+  <section class="about" id="onas">
+    <div class="container about-grid">
+      <div>
+        <h2>O nas</h2>
+        <p>W Sqrczybykus stawiamy na oryginał: ciasto na długofermentacji, piec opalany drewnem, świeże składniki. Pizza w 90 sekund!</p>
+      </div>
+    </div>
+  </section>
+  <section class="gallery" id="galeria">
+    <div class="container">
+      <h2>Galeria</h2>
+      <div class="masonry">
+        <img src="g1.jpg" alt="Pizza w piecu" />
+        <img src="g2.jpg" alt="Piec do pizzy" />
+        <!-- Dodaj własne zdjęcia -->
+      </div>
+    </div>
+  </section>
+  <section class="testimonials" id="opinie">
+    <div class="container">
+      <h2>Opinie</h2>
+      <div class="slider" id="slider">
+        <div class="slide"><blockquote>Świetna pizza, ciasto wyjątkowe!</blockquote> <div class="author">— Klient</div></div>
+        <div class="slide"><blockquote>Najlepsze składniki, przemiła obsługa.</blockquote> <div class="author">— Klientka</div></div>
+      </div>
+      <div class="slider-controls">
+        <button id="prev" aria-label="Poprzednia opinia">←</button>
+        <button id="next" aria-label="Następna opinia">→</button>
+      </div>
+    </div>
+  </section>
+  <footer id="kontakt" class="footer">
+    <div class="container">
+      <h3>Sqrczybykus</h3>
+      <p>ul. Przykładowa, Żary</p>
+      <p>Telefon: <a href="tel:997112998">997112998</a></p>
+      <p>Email: <a href="mailto:pizza@sqrczybykus.pl">pizza@sqrczybykus.pl</a></p>
+    </div>
+    <div class="container legal">
+      <small>© 2025 Sqrczybykus. Wszelkie prawa zastrzeżone.</small>
+    </div>
+  </footer>
+</body>
+</html>
